@@ -1,0 +1,51 @@
+Verificar qual distro e DE esta ativa no sistema, e adaptar as configs a ela
+
+Organize em multitask para implementação, organize da melhor forma para não interpolar operações que dependem uma das outras
+
+
+Instalar os módulos abaixo
+https://github.com/amonetlol/base/tree/main/modules
+
+shortcuts, bash, bin, btop, fastfetch, fonts, starship, nvim (para user e root), vmware
+
+https://github.com/amonetlol/wall2 -> ~/Imagens/wallpapers
+
+https://github.com/amonetlol/dot/blob/main/randow-wallpapers.service
+https://github.com/amonetlol/dot/blob/main/dotfiles/bin/.bin/randow-wallpapers.sh
+
+Neste script abaixo (firefox no lugar do brave), alt+m para bind ~/.bin/mon
+https://github.com/amonetlol/vm_rice/blob/main/debian/4.gnome-tweaks.sh
+
+https://github.com/amonetlol/base/blob/main/modules/install-fix-copy_vmware.sh
+
+
+Se for brtfs:
+outras configs: limite 6 ultimas entradas
+https://github.com/amonetlol/vm_rice/blob/main/scripts/lib/snapper.sh
+
+
+
+-----Configs exclusivas
+
+-----RICE:
+
+--ulauncher
+python3 <(curl https://raw.githubusercontent.com/catppuccin/ulauncher/main/install.py -fsSL) -f frappe -a sapphire
+python3 <(curl https://raw.githubusercontent.com/catppuccin/ulauncher/main/install.py -fsSL) -f frappe -a blue
+o ulauncher iniciar junto com o sistema sem exibir o popup dele no login, apenas ativo pronto para receber o atalho para ser chamado
+
+SE for GNOME:
+https://github.com/amonetlol/base/tree/main/modules
+modulo: rice-base
+
+SE for KDE:
+-cores: nordic-bluish
+-estilo do aplicativo: breeze
+-estilo do plasma: layan
+-decoração da janela: layay
+-icones: mactahoe-icon-theme (blue)
+-ponteiros: oxygen zion
+
+
+
+
