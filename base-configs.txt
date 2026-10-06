@@ -2,6 +2,12 @@ Verificar qual distro e DE esta ativa no sistema, e adaptar as configs a ela
 
 Organize em multitask para implementação, organize da melhor forma para não interpolar operações que dependem uma das outras
 
+--Base Arch
+adicionar paralleldownloads no pacman = 10
+
+--Base fedora
+adicionar paralleldownloads no dnf = 10
+
 
 Instalar os módulos abaixo
 https://github.com/amonetlol/base/tree/main/modules
