@@ -1,0 +1,6 @@
+Color
+ILoveCandy
+VerbosePkgLists
+DisableDownloadTimeout
+ParallelDownloads = 10
+DownloadUser = alpm
