@@ -52,6 +52,9 @@ SE for KDE:
 -icones: mactahoe-icon-theme (blue)
 -ponteiros: oxygen zion
 
+Se for SDDM:
+Tema: https://github.com/Keyitdev/sddm-astronaut-theme
+
 
 
 
