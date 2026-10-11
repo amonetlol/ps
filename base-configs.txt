@@ -35,7 +35,7 @@ https://github.com/amonetlol/vm_rice/blob/main/scripts/lib/snapper.sh
 
 -----RICE:
 
---ulauncher
+--ulauncher para Gnome ou KDE
 python3 <(curl https://raw.githubusercontent.com/catppuccin/ulauncher/main/install.py -fsSL) -f frappe -a sapphire
 python3 <(curl https://raw.githubusercontent.com/catppuccin/ulauncher/main/install.py -fsSL) -f frappe -a blue
 o ulauncher iniciar junto com o sistema sem exibir o popup dele no login, apenas ativo pronto para receber o atalho para ser chamado
