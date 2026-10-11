@@ -1,0 +1,17 @@
+Idioma: pt-br
+teclado: br abnt2
+
+Browser: firefox
+File Manager: thunar
+Terminal: foot
+Logout: wlogout
+
+Bind 1 / bind2
+alt+w / super+w firefox
+alt+e / super+e thunar
+alt+return / super+return foot
+alt+x / super+x wlogout
+alt+m / super+m script mon
+
+script mon: colocar em ~/.bin/mon
+https://github.com/amonetlol/dot/blob/main/dotfiles/bin/.bin/mon
