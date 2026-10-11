@@ -1,5 +1,7 @@
 Idioma: pt-br
 teclado: br abnt2
+Monitor: Virtual-1 (Se for VMware)
+Resolução: 1920x1080
 
 Browser: firefox
 File Manager: thunar
