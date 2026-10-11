@@ -53,7 +53,9 @@ SE for KDE:
 -ponteiros: oxygen zion
 
 Se for SDDM:
-Tema: https://github.com/Keyitdev/sddm-astronaut-theme
+Tema: sddm-astronaut-theme
+Base Arch tem no Aur: sddm-astronaut-theme
+Outras bases: https://github.com/Keyitdev/sddm-astronaut-theme
 
 
 
