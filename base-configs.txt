@@ -49,8 +49,9 @@ SE for KDE:
 -estilo do aplicativo: breeze
 -estilo do plasma: layan
 -decoração da janela: layay
--icones: mactahoe-icon-theme (blue)
+-icones: mactahoe-icon-theme (blue) (MacTahoe-nord)
 -ponteiros: oxygen zion
+-tela de apresentação: cachyos nord
 
 Se for SDDM:
 Tema: sddm-astronaut-theme
