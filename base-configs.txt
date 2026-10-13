@@ -58,6 +58,9 @@ Tema: sddm-astronaut-theme
 Base Arch tem no Aur: sddm-astronaut-theme
 Outras bases: https://github.com/Keyitdev/sddm-astronaut-theme
 
+--Blackbox Terminal
+Opacidade: 85
+
 
 
 
