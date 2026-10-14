@@ -66,3 +66,7 @@ ttf-terminus-nerd
 blackbox-terminal
 ulauncher
 herdr-bin
+
+loupse
+papers
+xed
