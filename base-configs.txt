@@ -48,7 +48,7 @@ SE for KDE:
 -cores: nordic-bluish
 -estilo do aplicativo: breeze
 -estilo do plasma: layan
--decoração da janela: layay
+-decoração da janela: layan
 -icones: mactahoe-icon-theme (blue) (MacTahoe-nord)
 -ponteiros: oxygen zion
 -tela de apresentação: cachyos nord
