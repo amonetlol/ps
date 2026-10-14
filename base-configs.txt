@@ -42,7 +42,7 @@ o ulauncher iniciar junto com o sistema sem exibir o popup dele no login, apenas
 
 SE for GNOME:
 https://github.com/amonetlol/base/tree/main/modules
-modulo: rice-base
+modulo: rice-base-gnome
 
 SE for KDE:
 -cores: nordic-bluish
