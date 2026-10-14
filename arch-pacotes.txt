@@ -13,6 +13,8 @@ base-devel
   bash-completion
   procs
   less
+  wl-clipboard
+  xclip
 
   starship
   zoxide
