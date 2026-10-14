@@ -67,6 +67,6 @@ blackbox-terminal
 ulauncher
 herdr-bin
 
-loupse
+loupe
 papers
 xed
