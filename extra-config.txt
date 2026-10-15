@@ -1,0 +1,7 @@
+Config blackbox:
+Fonte: 0xProto Nerd Font 11
+Audible Bell: off
+Opacity: 85
+Lembrar do tamanho da janela: on
+
+curl -fsSL https://herdr.dev/install.sh | sh
