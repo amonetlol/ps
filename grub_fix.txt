@@ -1,0 +1,8 @@
+GRUB - CACHYOS
+
+Alteração de nome e posição:
+Arch Linux -> altera o nome para CachyOS Linux
+CachyOS Linux snapshots -> Snapshots
+UEFI Firmware Settings
+
+Remover todas as entradas EFI Boot Next
