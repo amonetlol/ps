@@ -34,6 +34,8 @@ Ajustar o wlogout para a DE especifica
 script mon: colocar em ~/local/bin/mon
 https://github.com/amonetlol/dot/blob/main/dotfiles/bin/.bin/mon
 
+Caminho dos wallpapers para fins de scripts de mudança de wallpapers: ~/Imagens/wallpapers
+
 ------Envs para melhor desempenho do VMware (adaptar para a DE como Niri, Quickshell, Hyprland. Ignorar para KDE,Gnome,XFCE)------
 hl.env("QT_QUICK_BACKEND", "software")
 hl.env("XCURSOR_SIZE", "24")
