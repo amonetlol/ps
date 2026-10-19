@@ -1,19 +1,41 @@
+File_Manager:
+-kde: dolphin
+-Gnome: Nautilus
+-Qtile: thunar
+-Hyprland: thunar
+-Niri e afins: Nautilus
+
+Terminal:
+-kde: blackbox
+-Gnome: blackbox
+-Qtile: alacritty
+-Hyprland: foot
+-Niri e afins: alacritty
+
 Idioma: pt-br
 teclado: br abnt2
+Timezone: America/Sao_Paulo
 Monitor: Virtual-1 (Se for VMware)
 Resolução: 1920x1080
 
-Browser: firefox
-File Manager: thunar
-Terminal: foot
-Logout: wlogout
 
 Bind 1 / bind2
 alt+w / super+w firefox
-alt+e / super+e thunar
-alt+return / super+return foot
-alt+x / super+x wlogout
+alt+e / super+e File_Manager
+alt+return / super+return Terminal
+alt+x / super+x wlogout ou powermenu(se ouver nas configs da bind esta opção)
 alt+m / super+m script mon
+alt+h / super+h settings de DE (se ouver nas configs da bind esta opção)
+super+F10 wallpaper_script (se ouver nas configs da bind esta opção)
+super+F12 waybar_restart_script (se ouver nas configs da bind esta opção)
 
-script mon: colocar em ~/.bin/mon
+Ajustar o wlogout para a DE especifica
+
+script mon: colocar em ~/local/bin/mon
 https://github.com/amonetlol/dot/blob/main/dotfiles/bin/.bin/mon
+
+------Envs para melhor desempenho do VMware (adaptar para a DE como Niri, Quickshell, Hyprland. Ignorar para KDE,Gnome,XFCE)------
+hl.env("QT_QUICK_BACKEND", "software")
+hl.env("XCURSOR_SIZE", "24")
+hl.env("GDK_BACKEND", "wayland,x11,*")
+hl.env("QT_QPA_PLATFORM", "wayland;xcb"
