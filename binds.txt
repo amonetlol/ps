@@ -23,11 +23,19 @@ Bind 1 / bind2
 alt+w / super+w firefox
 alt+e / super+e File_Manager
 alt+return / super+return Terminal
-alt+x / super+x wlogout ou powermenu(se ouver nas configs da bind esta opção)
+alt+x / super+x wlogout ou powermenu(se houver nas configs da bind esta opção)
 alt+m / super+m script mon
-alt+h / super+h settings de DE (se ouver nas configs da bind esta opção)
-super+F10 wallpaper_script (se ouver nas configs da bind esta opção)
-super+F12 waybar_restart_script (se ouver nas configs da bind esta opção)
+alt+h / super+h settings de DE (se houver nas configs da bind esta opção)
+super+f expande a janela para fullscreen como no niri maximize-column.
+super+shift+f para fullscreen padrão
+super+shift+r reload DE especifica
+alt+q / super+q fecha a janela
+super+F10 wallpaper_script (se houver nas configs da bind esta opção)
+super+F12 waybar_restart_script ou polybar_restart_script (se houver nas configs da bind esta opção) (depende da DE se tiver estas topbars)
+
+super+h tem 2 opções:
+WM: terminal -e nvim path_config_de_especifica (apenas para niri e afins, hyprland, qtile)ex: alacritty -e nvim ~/.config/qtile/
+DE: (Gnome,KDE,XFCE): abre o settings
 
 Ajustar o wlogout para a DE especifica
 
