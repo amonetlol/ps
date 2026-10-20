@@ -23,7 +23,7 @@ Bind 1 / bind2
 alt+w / super+w firefox
 alt+e / super+e File_Manager
 alt+return / super+return Terminal
-alt+x / super+x wlogout ou powermenu(se houver nas configs da bind esta opção)
+alt+x / super+x script wlogout ou powermenu(se houver nas configs da bind esta opção)
 alt+m / super+m script mon
 alt+h / super+h settings de DE (se houver nas configs da bind esta opção)
 super+f expande a janela para fullscreen como no niri maximize-column.
@@ -42,6 +42,9 @@ Ajustar o wlogout para a DE especifica
 
 script mon: colocar em ~/local/bin/mon
 https://github.com/amonetlol/dot/blob/main/dotfiles/bin/.bin/mon
+
+script wlogout: colocar em ~/local/bin/wlogout
+https://github.com/amonetlol/dot/blob/main/dotfiles/bin/.bin/wlogout
 
 Caminho dos wallpapers para fins de scripts de mudança de wallpapers: ~/Imagens/wallpapers
 
