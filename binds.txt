@@ -30,6 +30,7 @@ super+f expande a janela para fullscreen como no niri maximize-column.
 super+shift+f para fullscreen padrão
 super+shift+r reload DE especifica
 alt+q / super+q fecha a janela
+alt+c / super+c clipboard rofi ou algo equivalente se houver script ou função especifica
 super+F10 wallpaper_script (se houver nas configs da bind esta opção)
 super+F12 waybar_restart_script ou polybar_restart_script (se houver nas configs da bind esta opção) (depende da DE se tiver estas topbars)
 
