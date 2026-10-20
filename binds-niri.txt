@@ -1,0 +1,101 @@
+Binds comuns entre Noctalia, DMS e Serpantinum
+================================================
+
+Fonte: F:\GitHub\niri
+Arquivos:
+  niri-noctalia/cfg/keybinds.kdl
+  niri-dms/dms/binds.kdl
+  serpantinum/niri/config/keybinds.kdl
+
+Mod representa a tecla Super. No arquivo do Serpantinum, algumas binds usam
+"Super" escrito diretamente. Foram incluídas combinações ativas que têm o
+mesmo propósito nas três sessões; alguns comandos internos variam por sessão.
+
+SETTINGS
+--------
+Mod+F1                 Abrir guia de atalhos
+Mod+H                  Abrir configurações da sessão
+Mod+Period             Abrir a pasta de configuração no Alacritty + Neovim
+Ctrl+Shift+R            Recarregar a sessão
+
+APPS
+----
+Alt+Return             Abrir Alacritty
+Mod/Super+Return        Abrir Alacritty
+Alt+W                  Abrir Firefox
+Mod/Super+W             Abrir Firefox
+Alt+E                  Abrir Nautilus
+Mod/Super+E             Abrir Nautilus
+Alt+D                  Abrir o launcher
+Mod+D                  Abrir o launcher
+Alt+M                  Abrir o controle de monitores
+Mod/Super+M             Abrir o controle de monitores
+Alt+X                  Abrir o menu de sessão/energia
+Mod/Super+X             Abrir o menu de sessão/energia
+Mod+Alt+T              Abrir o gerenciador de tarefas
+
+RESIZE / SWAP
+-------------
+Mod+Minus              Diminuir a largura da coluna em 10%
+Mod+Equal              Aumentar a largura da coluna em 10%
+Mod+Backspace          Voltar ao preset anterior de largura
+Mod+T                  Alternar janela flutuante
+Mod+F                  Maximizar a coluna
+Mod+Shift+F            Ativar fullscreen padrão
+
+FOCUS
+-----
+Mod+Left               Focar a coluna à esquerda
+Mod+Right              Focar a coluna à direita
+Mod+Up                 Focar a janela acima
+Mod+Down               Focar a janela abaixo
+Mod+Tab                Alternar overview
+
+MOVEMENT
+--------
+Mod+Shift+Left         Mover a coluna para a esquerda no mesmo workspace
+Mod+Shift+Right        Mover a coluna para a direita no mesmo workspace
+
+COLUMN
+------
+Mod+C                  Centralizar a coluna
+Mod+Q                  Fechar a janela ativa
+
+WORKSPACES
+----------
+Mod+1 ... Mod+9        Focar os workspaces 1 a 9
+Mod+0                  Focar o workspace 10
+Mod+Shift+1 ... +9     Mover a janela/coluna para o workspace 1 a 9
+Mod+Shift+0            Mover a janela/coluna para o workspace 10
+
+LOCK / SESSION / TASK CONTROLS
+------------------------------
+Mod+Shift+L            Bloquear a sessão
+Ctrl+Alt+Delete        Encerrar Niri e voltar ao SDDM
+
+DISPLAY
+-------
+Mod+F10                Abrir seletor de wallpapers
+Alt+F10                Abrir seletor de wallpapers
+Print                  Capturar uma região
+Ctrl+Print             Capturar a tela inteira
+Alt+Print              Capturar a janela
+Mod+Shift+P            Desligar os monitores
+
+MOUSE
+-----
+Não há binds de mouse ativos compartilhados pelas três sessões.
+
+Variações de implementação
+--------------------------
+- Mod+H: Noctalia abre suas configurações; DMS abre Settings; Serpantinum
+  alterna o painel guide, que é sua tela de configurações.
+- Mod+Period abre a pasta da configuração correspondente a cada sessão.
+- Ctrl+Shift+R chama o comando de reload próprio de cada sessão.
+- Mod+Alt+T abre a lista de processos do DMS; Noctalia e Serpantinum abrem
+  btop no foot.
+- Workspaces: Noctalia e DMS usam ações nativas do Niri; Serpantinum chama
+  o controle de workspace do próprio Serpantinum.
+- Wallpapers, launcher, menu de energia, controle de monitores e bloqueio chamam os serviços da respectiva sessão.
+- Mod+Up e Mod+Down focam janelas verticalmente; Serpantinum também pode
+  direcionar o foco ao workspace vizinho quando não há janela naquela direção.
