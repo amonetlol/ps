@@ -1,4 +1,4 @@
-Icones:
+------- Icons ------- 
 https://github.com/kusaida/Adwair
 https://github.com/yeyushengfan258/Reversal-icon-theme
 https://github.com/vinceliuice/WhiteSur-icon-theme
@@ -11,15 +11,23 @@ https://github.com/OrancheloTeam/oranchelo-icon-theme
 https://github.com/SylEleuth/gruvbox-plus-icon-pack
 https://github.com/vinceliuice/MacTahoe-icon-theme
 
-
+===== Icons Circle =====
 https://github.com/vinceliuice/Tela-circle-icon-theme
 https://github.com/vinceliuice/McMojave-circle
 https://github.com/yeyushengfan258/Inverse-icon-theme
 https://github.com/yeyushengfan258/McMuse-circle
 
 
-Tema:
+------- Theme ------- 
 https://github.com/vinceliuice/MacTahoe-gtk-theme
 https://github.com/vinceliuice/Orchis-theme
 https://github.com/vinceliuice/Colloid-gtk-theme
 https://github.com/vinceliuice/Qogir-theme
+
+------- Cursor ------- 
+https://github.com/ful1e5/Bibata_Cursor | Bibata Modern Ice
+https://github.com/vinceliuice/Vimix-cursors
+https://github.com/vinceliuice/Qogir-icon-theme/tree/master/src/cursors
+https://github.com/guillaumeboehm/Nordzy-cursors
+https://github.com/vinceliuice/Colloid-icon-theme/tree/main/cursors
+https://github.com/vinceliuice/Fluent-icon-theme
