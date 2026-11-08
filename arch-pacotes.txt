@@ -65,9 +65,8 @@ ttf-geist
 ttf-0xproto-nerd
 ttf-terminus-nerd
 
-blackbox-terminal
-ulauncher
 herdr-bin
+nwg-look
 
 loupe
 papers
