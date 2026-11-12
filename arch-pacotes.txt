@@ -66,6 +66,7 @@ ttf-0xproto-nerd
 ttf-terminus-nerd
 
 herdr-bin
+tmux
 nwg-look
 
 loupe
