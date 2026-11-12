@@ -70,4 +70,6 @@ nwg-look
 
 loupe
 papers
-xed
+micro
+yay-bin
+sublime-text-4
